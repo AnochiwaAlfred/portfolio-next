@@ -8,12 +8,12 @@ const EmailSection = () => {
   return (
     <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 '>
         <div>
-            <h5 className='text-xl font-bold text-white my-2'>Let's Connect</h5>
+            <h5 className='text-xl font-bold text-white my-2'>Let&lsquo;s Connect</h5>
             <p className='text-[#ADBB7BE] max-w-md mb-4'>
                 {" "}
-                Feel free to reach out. I’ll respond as soon as possible.
-                Feel free to reach out. I’ll respond as soon as possible.
-                Feel free to reach out. I’ll respond as soon as possible.
+                Feel free to reach out. I&lsquo;ll respond as soon as possible.
+                Feel free to reach out. I&lsquo;ll respond as soon as possible.
+                Feel free to reach out. I&lsquo;ll respond as soon as possible.
             </p>
             <div className='socials flex flex-row gap-3'>
                 <Link href="github.com">
