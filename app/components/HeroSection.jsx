@@ -26,8 +26,6 @@ const HeroSection = () => {
                         'A Musicologist',
                         1200,
                         'Learning Next JS',
-                        1200,
-                        'Thats what HEROES Do',
                         1200
                     ]}
                     wrapper="span"
@@ -35,6 +33,7 @@ const HeroSection = () => {
                     repeat={Infinity}
                 />
                 </h1>
+                <h2 className="text-white mb-4 text-2xl sm:text-3xl lg:text-4xl font-semibold">Coz thats what HEROES do</h2>
                 <p className="text-[#ADB7BE] text-base  sm:text-lg mb-6 lg:text-xl">
                     lorem ipsum donor sit anrt consectratir adispiscing elit
                     sed dos eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull
