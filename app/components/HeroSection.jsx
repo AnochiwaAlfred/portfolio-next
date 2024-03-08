@@ -26,6 +26,8 @@ const HeroSection = () => {
                         'A Musicologist',
                         1200,
                         'Learning Next JS',
+                        1200,
+                        'Thats what HEROES Do',
                         1200
                     ]}
                     wrapper="span"
