@@ -26,9 +26,22 @@ const EmailSection = () => {
         </div>
         
         <div>
-            <form className='flex flex-col gap-4'>
-                <label htmlFor='email' className='text-white'>Your email</label>
-                <input type='email' id='email' required placeholder='jacob@google.com'/>
+            <form className='flex flex-col'>
+                <div className='mb-6'>
+                    <label htmlFor='email' className='mb-2 text-white block text-sm font-medium'>Your email</label>
+                    <input type='email' id='email' required placeholder='jacob@google.com' className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'/>
+                </div>
+
+                <div className='mb-6'>
+                    <label htmlFor='subject' className='mb-2 text-white block text-sm font-medium'>Subject</label>
+                    <input type='text' id='subject' required placeholder='Just saying Hi!' className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'/>
+                </div>
+
+                <div className='mb-6'>
+                    <label htmlFor='message' className='mb-2 text-white block text-sm font-medium'>Your message</label>
+                    <textarea name="message" id="message" placeholder="Let's talk about" className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'></textarea>
+                </div>
+                <button type="submit" className='bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full'>Send Message</button>
             </form>
         </div>
     </section>
