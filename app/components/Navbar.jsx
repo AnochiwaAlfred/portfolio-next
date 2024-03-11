@@ -14,8 +14,8 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
-        <div className='flex flex-wrap items-center justify-between mx-auto px-8 py-4'>
+    <nav className='fixed mx-auto border border-[#33353F] border-l-0 border-t-0 border-r-0top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90'>
+        <div className='flex lg:py-4 container items-center justify-between mx-auto px-8 py-4'>
             <Link href={"/"} className='text-lg md:text-5xl text-white font-semibold'>LOGO</Link>
             <div className='mobile-menu block md:hidden'>
               {navbarOpen ? (
